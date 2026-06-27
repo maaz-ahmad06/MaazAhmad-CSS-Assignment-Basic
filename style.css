@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(135, 47, 47, 0.1);
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.container{
+    width: 2000px;
+    height: 1500px;
+    background-image: url(./images/image.jpg);
+    /* opacity: 0.1; */
+    /* opacity: 0.5; */
+    /* opacity: 0.8; */
+    /* opacity: 1; */
+
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+
+    /* background-size: auto; */
+    /* background-size: contain; */
+    background-size: cover;
+
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: 40% 10%; */
+
+    /* background: pink no-repeat fixed 40% 10% url(./images/image.jpg); */
+
+}
+h1{
+    /* the priority of inline CSS is high therefore it will not be applied */
+    color: rgb(47,10,10);
+}
